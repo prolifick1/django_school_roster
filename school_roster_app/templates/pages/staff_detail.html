@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  {% if staff %}
+  <p>{{ staff.name }}</p>
+  <p>{{ staff.role }}</p>
+  <p>{{ staff.age }} </p>
+  {% else %}
+  <p>No staff goes by that id</p>
+  {% endif %}
+</body>
+</html>
